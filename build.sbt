@@ -7,9 +7,11 @@ scalaVersion := "2.12.8"
 
 name := "PyShellScalaJS"
 
-organization := "org.novogarchinsk"
+normalizedName := "pyshell-scalajs"
 
-version := "0.1-SNAPSHOT"
+organization := "net.novogarchinsk"
+
+version := "0.1"
 
 scalacOptions ++= Seq(
   "-feature",
